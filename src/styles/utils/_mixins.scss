@@ -47,7 +47,7 @@
 }
 
 @mixin appear-on-scroll-left {
-  animation: onScrollMoveLeft 1s ease-in;
+  animation: on-scroll-move-left 1s ease-in;
 
   @keyframes on-scroll-move-left {
     0% {

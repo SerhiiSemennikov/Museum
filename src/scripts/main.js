@@ -20,18 +20,18 @@ if (window.innerWidth >= 640) {
 function init() {
   width = document.querySelector('.slider').offsetWidth;
 
-  sliderLine.style.width =
-    width * sliderImages.length + gap * (sliderImages.length - 1) + 'px';
+  sliderLine.style.width
+    = width * sliderImages.length + gap * (sliderImages.length - 1) + 'px';
 
   sliderImages.forEach((item) => {
     item.style.width = width + 'px';
   });
 
   if (window.innerWidth >= 640) {
-    sliderLine.style.width =
-      (width / 2 - halfGap) * sliderImages.length +
-      gap * (sliderImages.length - 1) +
-      'px';
+    sliderLine.style.width
+      = (width / 2 - halfGap) * sliderImages.length
+      + gap * (sliderImages.length - 1)
+      + 'px';
 
     sliderImages.forEach((item) => {
       item.style.width = width / 2 - halfGap + 'px';
@@ -44,12 +44,12 @@ window.addEventListener('resize', init());
 init();
 
 function rollSlider() {
-  sliderLine.style.transform =
-    'translate(-' + (count * width + count * gap) + 'px)';
+  sliderLine.style.transform
+    = 'translate(-' + (count * width + count * gap) + 'px)';
 
   if (window.innerWidth >= 640) {
-    sliderLine.style.transform =
-      'translate(-' + (count * (width / 2 - halfGap) + count * gap) + 'px)';
+    sliderLine.style.transform
+      = 'translate(-' + (count * (width / 2 - halfGap) + count * gap) + 'px)';
   }
 }
 
@@ -60,7 +60,7 @@ function thisSlide(index) {
 }
 
 function autoSlider() {
-  timer = setTimeout(function () {
+  timer = setTimeout(function() {
     count++;
 
     let si = sliderImages.length;
