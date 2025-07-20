@@ -56,6 +56,17 @@
     }
   },
   "dependencies": {
-    "sass": "^1.89.2"
-  }
+    "sass": "^1.89.2",
+    "style-dictionary": "^4.4.0"
+  },
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerhiiSemennikov/Museum.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SerhiiSemennikov/Museum/issues"
+  },
+  "homepage": "https://github.com/SerhiiSemennikov/Museum#readme"
 }

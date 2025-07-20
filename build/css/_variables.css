@@ -3,8 +3,8 @@
  */
 
 :root {
-  --colors-black: #000000;
-  --colors-white: #ffffff;
+  --colors-black: #000;
+  --colors-white: #fff;
   --colors-orange-100: #fffaf0;
   --colors-orange-200: #feebc8;
   --colors-orange-300: #fbd38d;
@@ -50,11 +50,11 @@
   --transitions-durations-short: 100ms;
   --transitions-durations-medium: 300ms;
   --transitions-durations-long: 600ms;
-  --borders-heavy: 4px solid #000000;
+  --borders-heavy: 4px solid #000;
   --borders-wireframe: 8px dashed #dd6b20;
   --borders-styles-solid: solid;
   --borders-styles-dashed: dashed;
-  --shadows-sm: 0px 4px 12px #000000;
-  --shadows-lg: 0px 8px 16px #000000;
-  --shadows-multi: 0px 4px 12px #000000, 0px 8px 16px #000000;
+  --shadows-sm: 0px 4px 12px #000;
+  --shadows-lg: 0px 8px 16px #000;
+  --shadows-multi: 0px 4px 12px #000, 0px 8px 16px #000;
 }
